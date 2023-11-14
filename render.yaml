@@ -1,0 +1,7 @@
+runtime: image
+
+image:
+  url: docker.io/libretranslate/libretranslate:latest  
+  creds:
+    fromRegistryCreds:
+      name: docker
